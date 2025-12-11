@@ -1,0 +1,5 @@
+*.zip
+__pycache__/
+*.pyc
+lambda_function/*.pyc
+lambda_function/__pycache__
