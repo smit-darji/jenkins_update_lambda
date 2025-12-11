@@ -15,7 +15,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/YOUR-ORG/jenkins_update_lambda.git'
+                git branch: 'Master', url: 'https://github.com/jenkins_update_lambda/jenkins_update_lambda.git'
             }
         }
 
