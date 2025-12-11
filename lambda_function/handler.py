@@ -5,6 +5,3 @@ def lambda_handler(event, context):
         "statusCode": 200,
         "body": json.dumps("Lambda Deployment Success - Updated!v12345678")
     }
-
-
-
